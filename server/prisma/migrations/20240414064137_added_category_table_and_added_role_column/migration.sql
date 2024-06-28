@@ -1,3 +1,12 @@
+
+-- Create the `user` table if it does not exist
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) UNIQUE NOT NULL
+);
+
+
 -- AlterTable
 ALTER TABLE `user` ADD COLUMN `role` VARCHAR(191) NULL DEFAULT 'user';
 
