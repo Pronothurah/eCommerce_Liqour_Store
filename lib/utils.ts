@@ -1,63 +1,63 @@
 export const categoryMenuList = [
   {
     id: 1,
-    title: "Smart Phones",
+    title: "Whiskey",
     src: "/smart phone icon.png",
-    href: "/shop/smart-phones"
+    href: "/shop/whiskey"
   },
   {
     id: 2,
-    title: "Tablets",
     src: "/tablet icon.png",
-    href: "/shop/tablets"
+    title: "Vodka",
+    href: "/shop/vodka"
   },
   {
     id: 3,
-    title: "Mouses",
+    title: "Gin",
     src: "/mouse icon.png",
-    href: "/shop/mouses"
+    href: "/shop/gin"
   },
   {
     id: 4,
-    title: "Cameras",
+    title: "Wines",
     src: "/camera icon.png",
-    href: "/shop/cameras"
+    href: "/shop/wines"
   },
   {
     id: 5,
-    title: "Smart Watches",
+    title: "Beer",
     src: "/smart watch.png",
-    href: "/shop/watches"
+    href: "/shop/beer"
   },
   {
     id: 6,
-    title: "Laptops",
+    title: "Rum",
     src: "/laptop icon.png",
-    href: "/shop/laptops"
+    href: "/shop/rum"
   },
   {
     id: 7,
-    title: "PCs",
+    title: "Tequila",
     src: "/pc icon.png",
-    href: "/shop/computers"
+    href: "/shop/tequila"
   },
   {
     id: 8,
-    title: "Printers",
+    title: "Cognac",
     src: "/printers icon.png",
-    href: "/shop/printers"
+    href: "/shop/Cognac"
   },
   {
     id: 9,
-    title: "Earbuds",
+    title: "Mixers",
     src: "/ear buds icon.png",
-    href: "/shop/earbuds"
+    href: "/shop/mixers"
   },
   {
     id: 10,
-    title: "Head Phones",
+    title: "Accessories",
     src: "/headphone icon.png",
-    href: "/shop/headphones"
+    href: "/shop/accesories"
   },
 ];
 
