@@ -1,7 +1,7 @@
 // *********************
 // Role of the component: Showing products on the shop page with applied filter and sort
 // Name of the component: Products.tsx
-// Developer: Aleksandar Kuzmanovic
+// Developer:  Onsongo Onditi
 // Version: 1.0
 // Component call: <Products slug={slug} />
 // Input parameters: { slug }: any
