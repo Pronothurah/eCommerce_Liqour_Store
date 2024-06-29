@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'custom-yellow':'#FED700',
-      }
+        'primary': '#1e1e1e',
+        'secondary': '#b8bbd1',
+        'gray': '#545454',
+        'crimson': '#F5EFDB',
+        'white': '#fff',
+        'golden': '#DCCA87',
+      },
+      fontFamily: {
+        'base': ['"Reem Kufi"', 'sans-serif'],
+      },
     },
   },  
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms"), require("daisyui")],

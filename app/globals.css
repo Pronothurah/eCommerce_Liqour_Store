@@ -2,24 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.range{
-    --range-shdw: #3B82F6;
+:root {
+  --font-base: 'Reem Kufi', sans-serif;
+  --primary-color: #1e1e1e;
+  --secondary-color: #b8bbd1;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-white: #fff;
+  --color-golden: #DCCA87;
 }
 
-.checkbox:checked, .checkbox[checked="true"], .checkbox[aria-checked="true"] {
+body {
+  font-family: var(--font-base);
+}
+
+
+.range {
+  --range-shdw: var(--primary-color);
+}
+
+.checkbox:checked,
+.checkbox[checked="true"],
+.checkbox[aria-checked="true"] {
     background-repeat: no-repeat;
     animation: checkmark var(--animation-input, 0.2s) ease-out;
-    background-color: #3B82F6;
-    background-image: linear-gradient(-45deg, transparent 65%, #3B82F6 65.99%),
-      linear-gradient(45deg, transparent 75%, #3B82F6 75.99%),
-      linear-gradient(-45deg, #3B82F6 40%, transparent 40.99%),
+    background-color: var(--primary-color);
+    background-image: linear-gradient(-45deg, transparent 65%, var(--primary-color) 65.99%),
+      linear-gradient(45deg, transparent 75%, var(--primary-color) 75.99%),
+      linear-gradient(-45deg, var(--primary-color) 40%, transparent 40.99%),
       linear-gradient(
         45deg,
-        #3B82F6 30%,
-        white 30.99%,
-        white 40%,
+        var(--primary-color) 30%,
+        var(--color-white) 30.99%,
+        var(--color-white) 40%,
         transparent 40.99%
       ),
-      linear-gradient(-45deg, white 50%, #3B82F6 50.99%);
+      linear-gradient(-45deg, var(--color-white) 50%, var(--primary-color) 50.99%);
 }
