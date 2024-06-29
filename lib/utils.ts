@@ -63,9 +63,9 @@ export const categoryMenuList = [
 
 export const incentives = [
   {
-    name: "Free Shipping",
+    name: "Free Deliveries",
     description:
-      "Our shipping is completely free and that is completely good for our customers.",
+      "Our deliveries are completely free and that is completely good for our customers.",
     imageSrc: "/shipping icon.png",
   },
   {
