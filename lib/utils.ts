@@ -2,61 +2,61 @@ export const categoryMenuList = [
   {
     id: 1,
     title: "Whiskey",
-    src: "/smart phone icon.png",
+    src: "/ballantines.png",
     href: "/shop/whiskey"
   },
   {
     id: 2,
-    src: "/tablet icon.png",
+    src: "/vodka.png",
     title: "Vodka",
     href: "/shop/vodka"
   },
   {
     id: 3,
     title: "Gin",
-    src: "/mouse icon.png",
+    src: "/gin.png",
     href: "/shop/gin"
   },
   {
     id: 4,
     title: "Wines",
-    src: "/camera icon.png",
+    src: "/Wine_4Street.png",
     href: "/shop/wines"
   },
   {
     id: 5,
     title: "Beer",
-    src: "/smart watch.png",
+    src: "/KO-Apple.png",
     href: "/shop/beer"
   },
   {
     id: 6,
     title: "Rum",
-    src: "/laptop icon.png",
+    src: "/bumbu_rum.png",
     href: "/shop/rum"
   },
   {
     id: 7,
     title: "Tequila",
-    src: "/pc icon.png",
+    src: "/camino-real-gold.jpg",
     href: "/shop/tequila"
   },
   {
     id: 8,
     title: "Cognac",
-    src: "/printers icon.png",
+    src: "/martel_cognac.png",
     href: "/shop/Cognac"
   },
   {
     id: 9,
     title: "Mixers",
-    src: "/ear buds icon.png",
+    src: "/schweppes-tonic.jpg",
     href: "/shop/mixers"
   },
   {
     id: 10,
     title: "Accessories",
-    src: "/headphone icon.png",
+    src: "/vape.png",
     href: "/shop/accesories"
   },
 ];
