@@ -31,11 +31,12 @@ const SearchInput = () => {
         value={searchInput}
         onChange={(e) => setSearchInput(e.target.value)}
         placeholder="Type here"
-        className="bg-gray-50 input input-bordered w-[70%] rounded-r-none outline-none focus:outline-none max-sm:w-full"
+        className="bg-golden input input-bordered w-[70%] rounded-r-none outline-none focus:outline-none max-sm:w-full"
       />
-      <button type="submit" className="btn bg-blue-500 text-white rounded-l-none rounded-r-xl hover:bg-blue-600">
+      <button type="submit" className="btn bg-golden text-primary rounded-l-none rounded-r-xl hover:bg-crimson">
         Search
       </button>
+
     </form>
   );
 };
