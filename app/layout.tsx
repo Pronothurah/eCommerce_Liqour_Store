@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Reem_Kufi } from "next/font/google";
 import "./globals.css";
 import { Footer, Header } from "@/components";
 import SessionProvider from "@/utils/SessionProvider";
@@ -10,6 +10,7 @@ import 'svgmap/dist/svgMap.min.css';
 
 
 const inter = Inter({ subsets: ["latin"] });
+const reemKufi = Reem_Kufi({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +26,9 @@ export default async function RootLayout({
   const session = await getServerSession();
   return (
     <html lang="en" data-theme="light">
-      <body className={inter.className}>
+      <head>
+      </head>
+      <body className={`${inter.className} ${reemKufi.className}`} >
       <SessionProvider session={session}>
         <Header />
         <Providers>
