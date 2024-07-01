@@ -105,7 +105,7 @@ const Filters = () => {
           <input
             type="range"
             min={0}
-            max={3000}
+            max={60000}
             step={10}
             value={inputCategory.priceFilter.value}
             className="range"
@@ -119,7 +119,7 @@ const Filters = () => {
               })
             }
           />
-          <span>{`Max price: $${inputCategory.priceFilter.value}`}</span>
+          <span>{`Max price: Ksh${inputCategory.priceFilter.value}`}</span>
         </div>
       </div>
 

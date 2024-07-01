@@ -66,10 +66,10 @@ const ProductTabs = ({ product }: { product: Product }) => {
                   </td>
                 </tr>
                 {/* row 3 */}
-                <tr>
+                {/* <tr>
                   <th>Color:</th>
                   <td>Silver, LightSlateGray, Blue</td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
           </div>
