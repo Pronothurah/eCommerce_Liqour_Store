@@ -12,6 +12,7 @@ import 'svgmap/dist/svgMap.min.css';
 const inter = Inter({ subsets: ["latin"] });
 const reemKufi = Reem_Kufi({ subsets: ["latin"], weight: "400" });
 
+// Define your custom metadata
 export const metadata: Metadata = {
   title: "ROH & Barrels",
   description: "ROH & Barrels has a wide selection of wines, gins, vodkas, rums, tequila, liqueurs and other drinks to choose from.",
