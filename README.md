@@ -62,7 +62,7 @@ cd ..
 node app.js
 ```
 
-<p>13. While your backend is running you need to open another terminal(don't stop the backend). In the second terminal, you need to make sure you are in your root project folder and write the following:</p>
+<p>13. While your backend is running you need to open another terminal(don't stop the backend). In the second terminal, you need to make sure you are in your root project folder and run the following:</p>
 
 ```
 npm run dev
