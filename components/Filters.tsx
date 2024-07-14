@@ -30,8 +30,8 @@ const Filters = () => {
   const { page } = usePaginationStore();
 
   const [inputCategory, setInputCategory] = useState<InputCategory>({
-    inStock: { text: "instock", isChecked: true },
-    outOfStock: { text: "outofstock", isChecked: true },
+    inStock: { text: "instock", isChecked: false },
+    outOfStock: { text: "outofstock", isChecked: false },
     priceFilter: { text: "price", value: 3000 },
     ratingFilter: { text: "rating", value: 0 },
   });
