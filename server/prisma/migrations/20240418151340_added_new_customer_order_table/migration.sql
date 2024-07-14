@@ -5,7 +5,7 @@
 
 */
 -- DropTable
-DROP TABLE `Order`;
+DROP TABLE `order`;
 
 -- CreateTable
 CREATE TABLE `Customer_order` (
