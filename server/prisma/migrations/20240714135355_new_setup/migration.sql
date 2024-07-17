@@ -12,10 +12,10 @@ ALTER TABLE `Wishlist` DROP FOREIGN KEY `Wishlist_userId_fkey`;
 ALTER TABLE `customer_order_product` DROP FOREIGN KEY `customer_order_product_customerOrderId_fkey`;
 
 -- DropTable
-DROP TABLE `customer_order`;
+DROP TABLE `Customer_order`;
 
 -- DropTable
-DROP TABLE `user`;
+DROP TABLE `User`;
 
 -- CreateTable
 CREATE TABLE `User` (
