@@ -21,7 +21,7 @@ async function createOrderProduct(request, response) {
 
 async function updateProductOrder(request, response) {
     try {
-        const { id } = request.params;
+        const { id } = request.params;stock
         const { customerOrderId, productId, quantity } = request.body;
 
 
