@@ -54,47 +54,7 @@ export const authOptions: any = {
       if (account?.provider == "credentials") {
         return true;
       }
-      // if (account?.provider == "github") {
-
-      //   try {
-      //     const existingUser = await prisma.user.findFirst({ where: {email: user.email!} });
-      //     if (!existingUser) {
-
-      //       await prisma.user.create({
-      //           data: {
-      //             id: nanoid() + "",
-      //             email: user.email!
-      //           },
-      //         });
-      //       return true;
-      //     }
-      //     return true;
-      //   } catch (err) {
-      //     console.log("Error saving user", err);
-      //     return false;
-      //   }
-      // }
-
-      // if (account?.provider == "google") {
-
-      //   try {
-      //     const existingUser = await prisma.user.findFirst({where: { email: user.email! }});
-      //     if (!existingUser) {
-      //       await prisma.user.create({
-      //           data: {
-      //             id: nanoid() + "",
-      //             email: user.email!
-      //           },
-      //         });
-
-      //       return true;
-      //     }
-      //     return true;
-      //   } catch (err) {
-      //     console.log("Error saving user", err);
-      //     return false;
-      //   }
-      // }
+ 
     },
   },
 };

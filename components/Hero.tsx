@@ -40,6 +40,7 @@ const Hero = () => {
         </div>
         <Image
           src="/about-background.png"
+          priority
           width={400}
           height={400}
           alt="smart watch"

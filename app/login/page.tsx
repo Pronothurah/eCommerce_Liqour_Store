@@ -62,7 +62,7 @@ const LoginPage = () => {
       <div className="flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8 bg-white">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
           <h2 className="mt-6 text-center text-2xl font-normal leading-9 tracking-tight text-gray-900">
-            Sign in to your account
+            {/* Sign in to your account */}
           </h2>
         </div>
 
@@ -160,7 +160,7 @@ const LoginPage = () => {
                 </div>
               </div>
 
-              <div className="mt-6 grid grid-cols-2 gap-4">
+              <div className="">
                 <button
                   className="flex w-full items-center border border-gray-300 justify-center gap-3 rounded-md bg-white px-3 py-1.5 text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                   onClick={() => {
@@ -173,7 +173,7 @@ const LoginPage = () => {
                   </span>
                 </button>
 
-                <button
+                {/* <button
                   className="flex w-full items-center justify-center gap-3 rounded-md bg-[#24292F] px-3 py-1.5 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#24292F]"
                   onClick={() => {
                     signIn("github");
@@ -194,7 +194,7 @@ const LoginPage = () => {
                   <span className="text-sm font-semibold leading-6">
                     GitHub
                   </span>
-                </button>
+                </button> */}
               </div>
               <p className="text-red-600 text-center text-[16px] my-4">
                 {error && error}
