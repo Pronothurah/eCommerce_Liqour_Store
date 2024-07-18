@@ -64,7 +64,7 @@ const SingleProductPage = async ({ params }: SingleProductPageProps) => {
           <div className="flex flex-col gap-y-7 text-black max-[500px]:text-center">
             <SingleProductRating rating={product?.rating} />
             <h1 className="text-3xl">{product?.title}</h1>
-            <p className="text-xl font-semibold">${product?.price}</p>
+            <p className="text-xl font-semibold">Ksh{product?.price}</p>
             <StockAvailabillity stock={94} inStock={product?.inStock} />
             <SingleProductDynamicFields product={product} />
             <div className="flex flex-col gap-y-2 max-[500px]:items-center">
@@ -95,13 +95,13 @@ const SingleProductPage = async ({ params }: SingleProductPageProps) => {
                   alt="mastercard icon"
                   className="h-auto w-auto"
                 />
-                <Image
+                {/* <Image
                   src="/ae.svg"
                   width={50}
                   height={50}
                   alt="americal express icon"
                   className="h-auto w-auto"
-                />
+                /> */}
                 <Image
                   src="/paypal.svg"
                   width={50}
@@ -109,20 +109,20 @@ const SingleProductPage = async ({ params }: SingleProductPageProps) => {
                   alt="paypal icon"
                   className="w-auto h-auto"
                 />
-                <Image
+                {/* <Image
                   src="/dinersclub.svg"
                   width={50}
                   height={50}
                   alt="diners club icon"
                   className="h-auto w-auto"
-                />
-                <Image
+                /> */}
+                {/* <Image
                   src="/discover.svg"
                   width={50}
                   height={50}
                   alt="discover icon"
                   className="h-auto w-auto"
-                />
+                /> */}
               </div>
             </div>
           </div>
