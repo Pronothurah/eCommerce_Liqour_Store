@@ -184,30 +184,37 @@ npm run dev
 <h2>Project screenshots</h2>
 
 <h3>Home page</h3>
-
+![ROH and Barrels home page]()
 
 <h3>Shop page</h3>
+![ROH and Barrels shop page]
 
 
 <h3>Single product page</h3>
+![ROH and Barrels product page]
 
 
 <h3>Register page</h3>
+![ROH and Barrels register page]
 
 
 <h3>Login page</h3>
+![ROH and Barrels login page]
 
 
 <h3>Search page</h3>
+![ROH and Barrels search page]
 
 
 <h3>Wishlist page</h3>
+![ROH and Barrels wishlist page]
 
 
 <h3>Cart page</h3>
-
+![ROH and Barrels cart page]
 
 <h3>Checkout page</h3>
+![ROH and Barrels checkout page]
 
 
 <h3>Admin dashboard - All orders page</h3>
