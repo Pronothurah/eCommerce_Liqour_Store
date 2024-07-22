@@ -187,19 +187,19 @@ npm run dev
 ![ROH and Barrels home page](https://github.com/Pronothurah/eCommerce_Liqour_Store/blob/main/assets/home-page.png)
 
 <h3>Shop page</h3>
-![ROH and Barrels shop page]
+![ROH and Barrels shop page](https://github.com/Pronothurah/eCommerce_Liqour_Store/blob/main/assets/products-page.png)
 
 
 <h3>Single product page</h3>
-![ROH and Barrels product page]
+![ROH and Barrels product page](https://github.com/Pronothurah/eCommerce_Liqour_Store/blob/main/assets/sigle-product.png)
 
 
 <h3>Register page</h3>
-![ROH and Barrels register page]
+![ROH and Barrels register page](https://github.com/Pronothurah/eCommerce_Liqour_Store/blob/main/assets/register-page.png)
 
 
 <h3>Login page</h3>
-![ROH and Barrels login page]
+![ROH and Barrels login page](https://github.com/Pronothurah/eCommerce_Liqour_Store/blob/main/assets/login-page.png)
 
 
 <h3>Search page</h3>
@@ -211,10 +211,10 @@ npm run dev
 
 
 <h3>Cart page</h3>
-![ROH and Barrels cart page]
+![ROH and Barrels cart page](https://github.com/Pronothurah/eCommerce_Liqour_Store/blob/main/assets/cart-page.png)
 
 <h3>Checkout page</h3>
-![ROH and Barrels checkout page]
+![ROH and Barrels checkout page](https://github.com/Pronothurah/eCommerce_Liqour_Store/blob/main/assets/checkout-page.png)
 
 
 <h3>Admin dashboard - All orders page</h3>
