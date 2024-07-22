@@ -165,13 +165,20 @@ cd ..
 node app.js
 ```
 
-<p>13. While your backend is running you need to open another terminal(don't stop the backend). In the second terminal, you need to make sure you are in your root project folder and run the following:</p>
+<p>13. Open another terminal with the server folder and run prisma studio. Make sure you are still in the server folder and run:</p>
+
+```
+npx prisma studio
+```
+
+
+<p>14. While your backend is running you need to open another terminal(don't stop the backend). In the second terminal, you need to make sure you are in your root project folder and run the following:</p>
 
 ```
 npm run dev
 ```
 
-<p>14. Open <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> and see it live!</p>
+<p>15. Open <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> and see it live!</p>
 
 
 <h2>Project screenshots</h2>
@@ -182,13 +189,10 @@ npm run dev
 <h3>Shop page</h3>
 
 
-
 <h3>Single product page</h3>
 
 
-
 <h3>Register page</h3>
-
 
 
 <h3>Login page</h3>
