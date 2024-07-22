@@ -184,7 +184,7 @@ npm run dev
 <h2>Project screenshots</h2>
 
 <h3>Home page</h3>
-![ROH and Barrels home page](assets/home-page.png)
+![ROH and Barrels home page](https://github.com/Pronothurah/eCommerce_Liqour_Store/blob/main/assets/home-page.png)
 
 <h3>Shop page</h3>
 ![ROH and Barrels shop page]
